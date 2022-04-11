@@ -7,6 +7,9 @@ class csvImportAndProcess {
     string filename = "input.csv";
     int chunkSize = 1000;
     public:
+    void start(){
+        
+    }
 
     //getters
     string getFilename(){

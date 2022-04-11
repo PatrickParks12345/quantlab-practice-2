@@ -7,6 +7,8 @@
 
 TEST_CASE( "Import and process the input.csv file") {
     csvImportAndProcess myCsv;
+    myCsv.start();
     REQUIRE(myCsv.getFilename() == "input.csv");
     REQUIRE(myCsv.getChunkSize() == 1000);
+
 }
