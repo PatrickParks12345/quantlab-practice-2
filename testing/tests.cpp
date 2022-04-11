@@ -5,7 +5,7 @@
 
 
 
-TEST_CASE( "Setup") {
-
-    REQUIRE(1==1);
+TEST_CASE( "Import and process the input.csv file") {
+    csvImportAndProcess myCsv;
+    
 }
